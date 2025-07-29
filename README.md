@@ -87,8 +87,7 @@ go mod tidy
 go run main.go
 
 # Сборка и запуск
-go build -o image-processor
-./image-processor
+go build -o image-processor ./image-processor
 ```
 
 ## Пример .env
